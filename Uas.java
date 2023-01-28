@@ -19,12 +19,12 @@ public class Uas {
             int pilihan;
             do {
                 System.out.println("-----------------------------------------");
-                System.out.println("Aplikasi CRUD sederhana data product:");
+                System.out.println("Aplikasi CRUD Pengadaan :");
                 System.out.println("-----------------------------------------");
-                System.out.println("1. Tampilkan data category");
-                System.out.println("2. Tampilkan data Product");
-                System.out.println("3. Input data Product");
-                System.out.println("4. Edit data Product");
+                System.out.println("1. Tampilkan data Pengadaan");
+                System.out.println("2. Tampilkan data Pengadaan");
+                System.out.println("3. Input data Pengadaan");
+                System.out.println("4. Edit data Pengadaan");
                 System.out.println("5. Hapus data");
                 System.out.println("6. Keluar");
                 System.out.print("Masukkan pilihan: ");
