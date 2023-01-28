@@ -83,7 +83,7 @@ public class Uas {
         String sql = "SELECT * FROM category";
         ResultSet rs = eksekusi.executeQuery(sql);
         System.out.println("-----------------------------------------");
-        System.out.println("Menampilkan Data category :");
+        System.out.println("Menampilkan Data pengadaan :");
         System.out.println("-----------------------------------------");
         while (rs.next()) {
             // ngambil data di database kumudian di tampilkan
@@ -98,7 +98,7 @@ public class Uas {
         String sql = "SELECT * FROM product";
         ResultSet rs = eksekusi.executeQuery(sql);
         System.out.println("-----------------------------------------");
-        System.out.println("Menampilkan Data Product:");
+        System.out.println("Menampilkan Data Pengadaan:");
         System.out.println("-----------------------------------------");
         while (rs.next()) {
             int id = rs.getInt("id");
